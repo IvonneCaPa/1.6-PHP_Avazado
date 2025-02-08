@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(245, 242, 240);
+}
+
+#form{
+    background-color:#ffffda;
+    margin: auto;
+    width: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #49281f;
+    legend{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}
+
+div{
+    display: flex;
+    align-items: center;
+    height: 1.5rem;
+    margin-bottom: 10px;
+
+    label{
+        width:40%;
+    }
+    input{
+        width: 55%;
+        border-radius: 8px;
+    }
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    input{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
