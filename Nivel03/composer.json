@@ -1,0 +1,17 @@
+{
+    "name": "ivonn/nivel03",
+    "autoload": {
+        "psr-4": {
+            "Ivonn\\Nivel03\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ivonne Cantor",
+            "email": "ivonnecp@gmail.com"
+        }
+    ],
+    "require": {
+        "tecnickcom/tcpdf": "^6.8"
+    }
+}
